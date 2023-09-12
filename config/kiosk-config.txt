@@ -3,21 +3,23 @@ connection=wired
 dhcp=yes
 proxy=
 browser=chrome
-browser_preferences=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/config/chrome-policies.txt
-wallpaper=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/images/bg.jpg
 homepage=https://player.yodeck.com
 allow_icmp_protocol=yes
 hide_mouse=30
 disable_navigation_bar=yes
-disable_private_mode=yes
-refresh_webpage=240
-root_password=P@88w3rd.
-timezone=Australia/West
+kiosk_config=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/config/kiosk-config.txt
 ntp_server=au.pool.ntp.org
+browser_preferences=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/config/chrome-policies.txt
+disable_private_mode=yes
+refresh_webpage=600
+removable_devices=yes
+root_password=P@88w3rd.
+timezone=Australia/Perth
 vnc_interactive=yes
 vnc_password=22222
-vnc_localhost_only=no
+wallpaper=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/images/bg.jpg
+disable_zoom_controls=yes
 additional_components=09-x11vnc.xzm uefi.zip 08-ssh.xzm 
 
-[[ PCID ]]
-hostname=DEP
+[[ B-74-724-4D-D1 ]]
+hostname=DEP59653
