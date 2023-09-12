@@ -19,6 +19,7 @@ vnc_interactive=yes
 vnc_password=22222
 wallpaper=https://raw.githubusercontent.com/uwa-albany/digital-signage/main/images/bg.jpg
 disable_zoom_controls=yes
+persistence=full
 additional_components=09-x11vnc.xzm uefi.zip 08-ssh.xzm 
 
 [[ B-74-724-4D-D1 ]]
